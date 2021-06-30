@@ -1,0 +1,16 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.img {
+  width: 60%;
+}
+.outer-div {
+  padding: 40px 120px 40px 120px;
+}
+.right_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
